@@ -19,7 +19,7 @@ public class CityDAO {
             }
         }
         try (PreparedStatement preparedStatement = con.prepareStatement(
-                "insert into cities (name, country) values (?, ?)"
+                "insert into city (name, country) values (?, ?)"
         )) {
             preparedStatement.setString(1, name);
             preparedStatement.setString(2, countryName);

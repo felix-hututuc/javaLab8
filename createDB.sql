@@ -13,9 +13,11 @@ create table countries (
     continent VARCHAR(20)
 );
 
-create table cities (
+create table city (
     id serial primary key ,
     name VARCHAR(20) ,
     country VARCHAR(20) ,
-    capital boolean default false
+    capital boolean default false ,
+    latitude decimal(8, 6) ,
+    longitude decimal(9, 6)
 )

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DdlMappings">
+    <mapping uuid="3f943988-beed-41de-81e8-6691fa1ec84b" name="DDL Mapping">
+      <data-sources db="e5b9d211-a297-4604-8068-5f69a12e2510" ddl="2f3acedb-7b0c-4f03-9c7c-cf24c4fe221f" />
+      <scope>
+        <node kind="database" negative="1">
+          <node kind="schema" negative="1" />
+        </node>
+      </scope>
+    </mapping>
+  </component>
+  <component name="SqlDataSourceStorage">
+    <option name="dataSources">
+      <list>
+        <State>
+          <option name="id" value="2f3acedb-7b0c-4f03-9c7c-cf24c4fe221f" />
+          <option name="name" value="PostgreSQL - cities@localhost (DDL)" />
+          <option name="languageId" value="PostgreSQL" />
+          <option name="urls">
+            <array>
+              <option value="file://$PROJECT_DIR$/createDB.sql" />
+            </array>
+          </option>
+        </State>
+      </list>
+    </option>
+  </component>
+</project>
